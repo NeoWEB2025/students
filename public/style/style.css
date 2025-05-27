@@ -1,11 +1,67 @@
 .register-btn {
   font-size: 1.25em;
   padding: 0.5em 0.75em;
-  background-color: #0c55ae;
+  background-color: #2eb00e;
   border: none;
   border-radius: 8px;
   transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
 }
 .register-btn:hover {
-  background-color: #0a4a98;
+  background-color: #279d0a;
+}
+
+header {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #808080;
+}
+header__logo {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+header__register {
+  justify-content: space-between;
+  align-items: center;
+}
+header__register--menu {
+  gap: 0.3em;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+header__register--menu:hover {
+  animation: bell-notification 0.5s;
+  color: #cccccc;
+}
+
+@keyframes bell-notification {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(-20deg) scale(1.1);
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+}
+.container {
+  width: 1800px;
+  padding: 90% auto;
+  justify-content: space-between;
+}
+
+.left-sidebar__list {
+  flex-direction: column;
+  gap: 1.2em;
+}
+.left-sidebar__list--item {
+  padding: 0.2em 0.4em;
+  margin: 0.2em;
+  font-size: var(font-size-color);
+}
+.left-sidebar__list--item:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
