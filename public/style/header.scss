@@ -1,0 +1,49 @@
+$bell-animation-duration: 0.5s;
+
+header {
+    padding: .5em 1em;
+    border-bottom: 1px solid #808080;
+
+
+    &__logo {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+
+    &__register {
+        justify-content: space-between;
+        align-items: center;
+
+
+        &--menu {
+            gap: 0.3em;
+            align-items: center;
+
+            transition: all $bell-animation-duration ease-in-out;
+
+            &:hover {
+                animation: bell-notification $bell-animation-duration;
+                color: #cccccc;
+            }
+        }
+    }
+
+}
+
+
+@keyframes bell-notification {
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(25deg);
+    }
+    50% {
+        transform: rotate(-20deg) scale(1.1);
+    }
+    75% {
+        transform: rotate(15deg);
+    }
+}
+

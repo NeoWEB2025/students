@@ -1,0 +1,31 @@
+.container {
+    width: 1800px;
+    padding: 90% auto;
+
+    justify-content: space-between;
+}
+
+
+.left-sidebar {
+
+
+    &__list {
+        flex-direction: column;
+        gap: 1.2em;
+        
+        &--item {
+            padding: .2em .4em;
+            margin: .2em;
+            font-size: var(font-size-color);
+
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+    }
+}
+
+
+
