@@ -1,31 +1,36 @@
-$bell-animation-duration: 0.5s;
+$bell-animation-duration: .5s;
 
-header {
-    padding: .5em 1em;
+.header {
+    padding: 1.2em 1.3em;
+    margin: 0 0 2em 0;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid #808080;
-
 
     &__logo {
         font-size: 1.5em;
         font-weight: 600;
     }
 
+    &__notification > button > svg {
+        transition: all $bell-animation-duration ease-in-out;
+
+        &:hover {
+            animation: bell-notification $bell-animation-duration;
+            color: #cccccc;
+        }
+    }
+
 
     &__register {
         justify-content: space-between;
         align-items: center;
+        gap: 1em;
 
 
         &--menu {
             gap: 0.3em;
             align-items: center;
-
-            transition: all $bell-animation-duration ease-in-out;
-
-            &:hover {
-                animation: bell-notification $bell-animation-duration;
-                color: #cccccc;
-            }
         }
     }
 
