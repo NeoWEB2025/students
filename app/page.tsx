@@ -2,8 +2,10 @@
 import Image from "next/image";
 import Header from "./components/pagination/Header";
 import Dashboard from "./components/pagination/Dashboard";
+import Students from "./components/pagination/Students"
 import { useEffect, useState } from "react";
 import "@/public/style/style.css"
+
 
 export default function Home() { 
   const [counter, setCounter] = useState<number>(0);
@@ -14,6 +16,8 @@ export default function Home() {
       <>
         <Header></Header>
         <Dashboard></Dashboard>
+
+        <Students></Students>
       </>
     );
 }

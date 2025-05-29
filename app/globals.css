@@ -48,4 +48,5 @@ li {
 
 .active {
   color: var(--active-font-color);
+  pointer-events: none;
 }
