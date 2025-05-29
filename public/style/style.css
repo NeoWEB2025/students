@@ -73,4 +73,72 @@
 }
 .left-sidebar__list--item:hover {
   text-decoration: underline;
+}
+
+.students__container {
+  gap: 3em;
+}
+.students__content > h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 1em 0;
+}
+.students__content--add-btn {
+  display: flex;
+  justify-content: right;
+  font-size: 1.8em;
+}
+.students__content--add-btn > button {
+  padding: 0 0.5em;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  transition: all 0.2s ease-in-out;
+}
+.students__content--add-btn > button:hover {
+  background-color: #ababab;
+  color: #000;
+}
+.students__content--list {
+  width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.students__list--groups > tr > th {
+  padding: 1em 0;
+  margin: 0.5em 0;
+}
+.students__list--groups > tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.students__list--groups > tr > td {
+  border: 1px #fff solid;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status_students::before {
+  content: "";
+  padding: 0.6em;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+.status_students.ready::before {
+  background-color: #00ff00;
+}
+
+.options_students {
+  padding: 0.2em 0 0 0;
+  gap: 0.7em;
+}
+.options_students > div > button > svg {
+  transition: all 0.2s ease-in-out;
+}
+.options_students > div > button > svg:hover {
+  fill: #ababab;
 }/*# sourceMappingURL=style.css.map */
