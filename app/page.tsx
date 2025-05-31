@@ -1,8 +1,7 @@
 'use client'
-import Image from "next/image";
-import Header from "./components/pagination/Header";
-import Dashboard from "./components/pagination/Dashboard";
-import Students from "./components/pagination/Students"
+import Header from "@/app/components/Header";
+import Dashboard from "@/app/components/menu/DashboardView";
+import Students from "@/app/components/menu/StudentsView"
 import { useEffect, useState } from "react";
 import "@/public/style/style.css"
 
@@ -16,7 +15,6 @@ export default function Home() {
       <>
         <Header></Header>
         <Dashboard></Dashboard>
-
         <Students></Students>
       </>
     );

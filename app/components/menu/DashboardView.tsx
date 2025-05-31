@@ -1,6 +1,6 @@
 import LeftMenu from "./LeftMenu";
 
-export default function Dashboard() {
+export default function DashboardView() {
     return (
         <>
             <div className={`container flex`}>

@@ -17,7 +17,7 @@ export default function Header() {
 
                     <div className={`header__register--menu flex`}>
                         <div className={`header__registration--avatar`}>
-                            <img src="" alt="" />
+                            <img src="/images/default-avatar.png" alt="User avatar" />
                         </div>
                         <div className={`header__registration--btn`}>
                             <button className={`register-btn`}>Sign in</button>

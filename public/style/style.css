@@ -69,7 +69,6 @@
 .left-sidebar__list--item {
   padding: 0.2em 0.4em;
   margin: 0.2em;
-  font-size: var(font-size-color);
 }
 .left-sidebar__list--item:hover {
   text-decoration: underline;

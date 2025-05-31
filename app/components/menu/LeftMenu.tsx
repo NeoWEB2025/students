@@ -1,3 +1,6 @@
+import "@/app/components/LeftMenu.module.scss"
+import "@/public/style/style.css"
+
 export default function LeftMenu() {
     return (
         <>
