@@ -1,0 +1,50 @@
+$border-section-color: #000;
+$border-color: #808080;
+
+.modal  {
+
+
+    &__header {
+
+        &--add-stud {
+            justify-content: space-between;
+    
+            padding: 0 0 1.5em 0;
+            border-bottom: 1px solid $border-section-color;
+        }
+    }
+
+    &__form--add-stud {
+        flex-direction: column;
+        gap: 1em;
+        margin: 3em 0;
+
+
+        & > div > label {
+            margin: 0 .5em 0 0;
+            padding: .3em;
+        }
+
+        & > div > input {
+            border: 1px solid $border-color;
+            border-radius: 6px;
+            padding: 0 .5em;
+        }
+
+        & > div > select {
+            border: 1px solid $border-color;
+            border-radius: 6px;
+            padding: 0 .1em;
+        }
+    }
+
+
+
+    &__footer--add-stud {
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 1.5em 0 0 0;
+        border-top: 1px solid $border-section-color;
+    }
+}

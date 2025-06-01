@@ -1,4 +1,6 @@
 import LeftMenu from "./LeftMenu";
+import ModalAddStudent from "./ModalAddStudent";
+import ModalWin from "./ModalWin";
 
 export default function StudentsView() {
     return (
@@ -10,8 +12,8 @@ export default function StudentsView() {
                 <div className={`students__content`}>
                     <h1>Students</h1>
 
-                    <div className={`students__content--add-btn`}>
-                        <button>+</button>
+                    <div className={`students__content--add-btn flex`}>
+                        <button onClick={ModalWin}>+</button>
                     </div>
 
                     <div className={`students__content--list`}>

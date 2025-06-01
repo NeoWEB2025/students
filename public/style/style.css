@@ -11,6 +11,58 @@
   background-color: #103da7;
 }
 
+.modal {
+  background-color: rgba(0, 0, 0, 0.7058823529);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  color: #000;
+}
+.modal__container {
+  padding: 3em;
+  border-radius: 6px;
+  background-color: #fff;
+  min-width: 30em;
+  min-height: 30em;
+}
+
+.modal__header--add-stud {
+  justify-content: space-between;
+  padding: 0 0 1.5em 0;
+  border-bottom: 1px solid #000;
+}
+.modal__form--add-stud {
+  flex-direction: column;
+  gap: 1em;
+  margin: 3em 0;
+}
+.modal__form--add-stud > div > label {
+  margin: 0 0.5em 0 0;
+  padding: 0.3em;
+}
+.modal__form--add-stud > div > input {
+  border: 1px solid #808080;
+  border-radius: 6px;
+  padding: 0 0.5em;
+}
+.modal__form--add-stud > div > select {
+  border: 1px solid #808080;
+  border-radius: 6px;
+  padding: 0 0.1em;
+}
+.modal__footer--add-stud {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 0 0 0;
+  border-top: 1px solid #000;
+}
+
 .header {
   padding: 1.2em 1.3em;
   margin: 0 0 2em 0;
@@ -69,6 +121,7 @@
 .left-sidebar__list--item {
   padding: 0.2em 0.4em;
   margin: 0.2em;
+  font-size: var(font-size-color);
 }
 .left-sidebar__list--item:hover {
   text-decoration: underline;
@@ -83,11 +136,13 @@
   margin: 1em 0;
 }
 .students__content--add-btn {
-  display: flex;
   justify-content: right;
   font-size: 1.8em;
 }
 .students__content--add-btn > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 0.5em;
   border-radius: 100%;
   border: 1px solid #fff;

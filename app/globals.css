@@ -61,3 +61,19 @@ td {
   color: var(--active-font-color);
   pointer-events: none;
 }
+
+
+.btn-cancel,
+.btn-save {
+  border: 1px solid #b0b0b0;
+  padding: .6em .8em;
+  background-color: #ededed;
+  
+  transition: all .2s ease-in-out;
+}
+
+.btn-cancel:hover,
+.btn-save:hover {
+  background-color: #e2e2e2;
+}
+
