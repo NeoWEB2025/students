@@ -1,19 +1,11 @@
 import LeftMenu from "./LeftMenu";
+import ChartAreaInteractive from "@/app/components/charts/ChartAreaInteractive";
 
 export default function DashboardView() {
     return (
         <>
             <div className={`container flex`}>
-                <LeftMenu></LeftMenu>
-
-                <main className={`main`}>
-
-                </main>
-            
-            
-                <div className={`right-sidebar`}>
-
-                </div>
+                <ChartAreaInteractive></ChartAreaInteractive>
             </div>
         </>
     )
