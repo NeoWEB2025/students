@@ -1,11 +1,17 @@
 import ModalAddStudent from "./ModalAddStudent"
-export default function ModalWin () {
+
+
+type ModalWinProps = {
+    handleCloseModal: () => void;
+  };
+
+export default function ModalWin ({ handleCloseModal }: ModalWinProps) {
     return (
         <>
-            <div className={`modal`}>
-                <div className={`modal__container`}>
+            <div onClick={handleCloseModal} className={`modal`}>
+                <div onClick={(e) => e.stopPropagation()} className={`modal__container`}>
                     <div className="modal__container--content">
-                        <ModalAddStudent></ModalAddStudent>
+                        <ModalAddStudent />
                     </div>
                 </div>
             </div>

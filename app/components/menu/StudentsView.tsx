@@ -1,8 +1,14 @@
 import LeftMenu from "./LeftMenu";
 import ModalAddStudent from "./ModalAddStudent";
 import ModalWin from "./ModalWin";
+import { useState } from "react";
+
 
 export default function StudentsView() {
+    const [showModal, setShowModal] = useState(false)
+    const openModalWin = () => setShowModal(true)
+    const closeModalWin = () => setShowModal(false)
+
     return (
         <>
             <div className={`students__container flex`}>
@@ -13,7 +19,8 @@ export default function StudentsView() {
                     <h1>Students</h1>
 
                     <div className={`students__content--add-btn flex`}>
-                        <button onClick={ModalWin}>+</button>
+                        <button onClick={openModalWin}>+</button>
+                        {showModal && <ModalWin handleCloseModal={closeModalWin} />}
                     </div>
 
                     <div className={`students__content--list`}>

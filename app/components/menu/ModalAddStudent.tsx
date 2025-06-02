@@ -36,6 +36,7 @@ export default function ModalAddStudent() {
                     <label htmlFor="gender-select">Select your gender:</label>
                     <select name="gender" id="gender-select">
                         <option value="male">Male</option>
+                        <option value="some">Prefer not to say</option>
                         <option value="female">Female</option>
                     </select>
                 </div>
