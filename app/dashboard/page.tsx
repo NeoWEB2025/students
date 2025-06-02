@@ -24,7 +24,7 @@ export default function DashboardPage() {
                 <div className={`col-start-2 row-end-2 ml-20`}>
                     <ChartLineLinear></ChartLineLinear>
                 </div>
-                <div>
+                <div className={`col-start-3 row-end-1 ml-20 mr-10`}>
                     <TasksView></TasksView>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const TasksAPI = axios.create({
-    baseURL: 'http://localhost:8080/api/v1/tasks',
+    baseURL: 'http://localhost:3000/api/v1/tasks',
     withCredentials: true
 })
 
