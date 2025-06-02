@@ -1,5 +1,4 @@
 import LeftMenu from "./LeftMenu";
-import ModalAddStudent from "./ModalAddStudent";
 import ModalWin from "./ModalWin";
 import { useState } from "react";
 
