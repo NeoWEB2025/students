@@ -3,12 +3,14 @@ import React from "react";
 import {ScrollArea} from "@/components/ui/scroll-area";
 import {Separator} from "@radix-ui/react-select";
 import {TasksDal} from "@/app/dal/tasks-dal";
+import data from "@mongodb-js/saslprep/dist/code-points-data-browser";
 
-const rawTasks = await TasksDal.getTasks();
+const rawTasks = TasksDal.getTasks().then();
+
+const tasks = Promise.resolve(rawTasks)
 
 
 export default function TasksView() {
-    console.log(rawTasks);
     return (
         <ScrollArea className="bg-[#171717] border-[#232323] rounded-md border h-[35vh]">
             <div className="p-4 px-8">
