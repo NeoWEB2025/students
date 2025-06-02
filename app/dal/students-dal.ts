@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const StudentsAPI = axios.create({
-    baseURL: 'http://localhost:8080/api/v1/students',
+    baseURL: 'http://localhost:3000/api/v1/students',
     withCredentials: true
 })
 
