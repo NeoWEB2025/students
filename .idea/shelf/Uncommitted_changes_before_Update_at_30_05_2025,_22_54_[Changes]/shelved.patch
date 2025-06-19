@@ -1,0 +1,16 @@
+Index: public/style/dasboard/_left-sidebar.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.container {\n    width: 1800px;\n    padding: 90% auto;\n\n    justify-content: space-between;\n}\n\n\n.left-sidebar {\n\n\n    &__list {\n        flex-direction: column;\n        gap: 1.2em;\n        \n        &--item {\n            padding: .2em .4em;\n            margin: .2em;\n            font-size: var(font-size-color);\n\n\n            &:hover {\n                text-decoration: underline;\n            }\n        }\n\n    }\n}\n\n\n\n
+===================================================================
+diff --git a/public/style/dasboard/_left-sidebar.scss b/public/style/dasboard/_left-sidebar.scss
+--- a/public/style/dasboard/_left-sidebar.scss	(revision d2690041da2acdb6a26b21845c4ec1a0a81928b4)
++++ b/public/style/dasboard/_left-sidebar.scss	(date 1748362563053)
+@@ -16,7 +16,6 @@
+         &--item {
+             padding: .2em .4em;
+             margin: .2em;
+-            font-size: var(font-size-color);
+ 
+ 
+             &:hover {
