@@ -18,6 +18,7 @@ export async function POST(request: NextRequest) {
         const { email, password } = body;
         const user = await User.findOne({ email });
         if (!user) {
+            console.log('User not found');
             return NextResponse.json({ error: 'User not found' }, { status: 404 });
         }
         const isPasswordValid = await bcrypt.compare(password, user.password);

@@ -1,9 +1,6 @@
-import axios from "axios";
+import { apiService } from "@/app/services/api";
 
-const TasksAPI = axios.create({
-    baseURL: 'http://localhost:3000/api/v1/tasks',
-    withCredentials: true
-})
+const TasksAPI = apiService.createApi('http://localhost:3000/api/v1/tasks');
 
 export const TasksDal = {
     async getTasks() {

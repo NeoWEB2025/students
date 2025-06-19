@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import {Inter, Montserrat} from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ['latin'], weight: ['400', '700'] });
 
 export const metadata: Metadata = {
   title: "Students Lab",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`inter.className bg-black`}>
+      <body className={`inter.className bg-black ${montserrat.className}`}>
         {children}
       </body>
     </html>

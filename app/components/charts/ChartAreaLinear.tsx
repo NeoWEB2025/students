@@ -79,7 +79,7 @@ export default function ChartAreaLinear() {
                         />
                         <ChartTooltip
                             cursor={false}
-                            content={<ChartTooltipContent indicator="dot" hideLabel />}
+                            content={<ChartTooltipContent className={`text-white`} indicator="dot" hideLabel />}
                         />
                         <Area
                             dataKey="count"
