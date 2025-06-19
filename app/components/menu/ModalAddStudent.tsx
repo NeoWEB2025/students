@@ -1,10 +1,16 @@
-export default function ModalAddStudent() {
+interface ModalAddStudentProps {
+    onClose: () => void
+    
+}
+
+
+export default function ModalAddStudent({onClose}: ModalAddStudentProps) {
     return (
         <>
             <div className={`modal__header--add-stud flex`}>
                 <h1>Add student</h1>
 
-                <button className={`btn-exit`}>
+                <button onClick={onClose} className={`btn-exit`}>
                     <span>&#10005;</span>
                 </button>
             </div>
