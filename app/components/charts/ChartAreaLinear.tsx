@@ -35,7 +35,7 @@ const chartConfig = {
 
 export default function ChartAreaLinear() {
     return (
-        <Card className={`bg-[#171717] border-[#232323]`}>
+        <Card className="bg-gradient-to-b from-[#171717] via-[#171717] to-[#222222] border-[#2b2b2b]">
             <CardHeader>
                 <CardTitle className={`text-white`}>Students</CardTitle>
                 <CardDescription className={`text-[#A1A1A1]`}>

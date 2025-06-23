@@ -35,7 +35,7 @@ export default function TasksView() {
     }
 
     return (
-        <ScrollArea className="bg-[#171717] border-[#232323] rounded-md border h-[35vh]">
+        <ScrollArea className="bg-gradient-to-b from-[#171717] via-[#171717] to-[#222222] border-[#2b2b2b] rounded-md border h-[35vh]">
             <div className="p-4 px-8">
                 <h4 className="mb-4 text-lg leading-none font-medium">Tasks</h4>
                 {tasks.map((task) => (

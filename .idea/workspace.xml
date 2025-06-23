@@ -4,27 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf0555c-d5af-4ad3-97f8-a757e16c7808" name="Changes" comment="4">
-      <change afterPath="$PROJECT_DIR$/app/assets/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/GlowImage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/auth/RegisterForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/menu/LeftMenuChild.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/menu/NavUser.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/menu/SiteHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/register/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/auth/login/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/auth/login/route.ts" afterDir="false" />
+    <list default="true" id="4bf0555c-d5af-4ad3-97f8-a757e16c7808" name="Changes" comment="Дуже багато всього">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/TasksView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/TasksView.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/charts/ChartAreaLinear.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/charts/ChartAreaLinear.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dal/tasks-dal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/dal/tasks-dal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/charts/ChartLineLinear.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/charts/ChartLineLinear.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/charts/ChartPie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/charts/ChartPie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/menu/LeftMenuChild.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/menu/LeftMenuChild.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/menu/NavUser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/menu/NavUser.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/chart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/scroll-area.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/scroll-area.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,26 +58,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "js.debugger.nextJs.config.created.client": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/miroslavzizin/IdeaProjects/students_lab/app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/miroslavzizin/IdeaProjects/students_lab/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/miroslavzizin/IdeaProjects/students_lab/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/miroslavzizin/IdeaProjects/students_lab/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
@@ -141,7 +129,9 @@
       <workItem from="1748798368560" duration="13681000" />
       <workItem from="1749820252140" duration="1330000" />
       <workItem from="1750271768184" duration="16135000" />
-      <workItem from="1750352990865" duration="1484000" />
+      <workItem from="1750352990865" duration="1564000" />
+      <workItem from="1750354602334" duration="51000" />
+      <workItem from="1750708935058" duration="1627000" />
     </task>
     <task id="LOCAL-00001" summary="Some fixes">
       <option name="closed" value="true" />
@@ -199,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748872610261</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Дуже багато всього">
+      <option name="closed" value="true" />
+      <created>1750354512538</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750354512538</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Дуже багато всього">
+      <option name="closed" value="true" />
+      <created>1750354551210</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750354551210</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +216,17 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some fixes" />
     <MESSAGE value="Added dashboard page" />
@@ -218,6 +235,7 @@
     <MESSAGE value="2" />
     <MESSAGE value="3" />
     <MESSAGE value="4" />
-    <option name="LAST_COMMIT_MESSAGE" value="4" />
+    <MESSAGE value="Дуже багато всього" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дуже багато всього" />
   </component>
 </project>

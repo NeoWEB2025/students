@@ -29,7 +29,7 @@ export default function DashboardPage() {
                             <div className={`col-start-2 row-end-2`}>
                                 <ChartLineLinear></ChartLineLinear>
                             </div>
-                            <div className={`col-start-3 row-end-1`}>
+                            <div className={`col-start-3 row-end-2 row-span-2`}>
                                 <TasksView></TasksView>
                             </div>
                         </div>

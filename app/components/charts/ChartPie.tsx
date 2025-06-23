@@ -63,7 +63,7 @@ export default function ChartPieInteractive() {
     const months = React.useMemo(() => desktopData.map((item) => item.month), [])
 
     return (
-        <Card data-chart={id} className="flex flex-col bg-[#171717] border-[#232323]">
+        <Card data-chart={id} className="flex flex-col bg-gradient-to-b from-[#171717] via-[#171717] to-[#222222] border-[#2b2b2b]">
             <ChartStyle id={id} config={chartConfig} />
             <CardHeader className="flex-row items-start space-y-0 pb-0">
                 <div className="grid gap-1">

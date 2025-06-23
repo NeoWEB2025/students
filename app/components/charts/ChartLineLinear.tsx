@@ -42,7 +42,7 @@ const chartConfig = {
 
 export default function ChartLineLinear() {
   return (
-    <Card className="flex flex-col bg-[#171717] border-[#232323]">
+    <Card className="flex flex-col bg-gradient-to-b from-[#171717] via-[#171717] to-[#222222] border-[#2b2b2b]">
       <CardHeader className="flex-row items-start">
         <CardTitle className={`text-white`}>Gender Students</CardTitle>
         <CardDescription></CardDescription>
